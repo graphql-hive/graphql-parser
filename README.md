@@ -1,34 +1,14 @@
-GraphQL Parser
-==============
+# GraphQL Parser (fork)
+
+> This repo is a fork of `graphql-rust/graphql-parser` with recent changes.
+
+You can follow the original repository, and just replace the dependency name to `graphql-parser-hive-fork`:
+
+```toml
+# graphql-parser = "0.4.0"
+graphql-parser-hive-fork = "0.5.0"
+```
 
 [Documentation](https://docs.rs/graphql-parser) |
-[Github](https://github.com/tailhook/graphql-parser) |
-[Crate](https://crates.io/crates/graphql-parser)
-
-A parser, formatter and AST for graphql query and schema definition language
-for rust.
-
-Supported extensions:
-
-1. Subscriptions
-2. Block (triple quoted) strings
-
-
-License
-=======
-
-Licensed under either of
-
-* Apache License, Version 2.0,
-  (./LICENSE-APACHE or http://www.apache.org/licenses/LICENSE-2.0)
-* MIT license (./LICENSE-MIT or http://opensource.org/licenses/MIT)
-  at your option.
-
-Contribution
-------------
-
-Unless you explicitly state otherwise, any contribution intentionally
-submitted for inclusion in the work by you, as defined in the Apache-2.0
-license, shall be dual licensed as above, without any additional terms or
-conditions.
-
+[Github](https://github.com/graphql-hive/graphql-parser) |
+[Crate](https://crates.io/crates/graphql-parser-hive-fork)

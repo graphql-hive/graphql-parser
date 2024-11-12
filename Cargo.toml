@@ -1,5 +1,5 @@
 [package]
-name = "graphql-parser"
+name = "graphql-parser-hive-fork"
 description = """
     A parser, AST and serializer for graphql query language and scheme
     definition language (sometimes called IDL).
@@ -8,9 +8,9 @@ license = "MIT/Apache-2.0"
 readme = "README.md"
 keywords = ["graphql", "parser"]
 categories = ["parser-implementations", "command-line-interface"]
-homepage = "https://github.com/graphql-rust/graphql-parser"
-documentation = "https://docs.rs/graphql-parser"
-version = "0.4.0"
+homepage = "https://github.com/graphql-hive/graphql-parser"
+documentation = "https://github.com/graphql-hive/graphql-parser"
+version = "0.5.0"
 authors = ["Paul Colomiets <paul@colomiets.name>"]
 edition = "2018"
 
