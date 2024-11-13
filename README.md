@@ -9,6 +9,13 @@ You can follow the original repository, and just replace the dependency name to 
 graphql-parser-hive-fork = "0.5.0"
 ```
 
+You can also use package alias if you wish to keep using `graphql_parser`:
+
+```toml
+# graphql-parser = "0.4.0"
+graphql-parser = { version = "0.5.0", package = "graphql-parser-hive-fork" }
+```
+
 Version `0.5.0` points to commit [`f75d96f1e026d0fb993944793916c1cd0597f44c`](https://github.com/graphql-rust/graphql-parser/tree/f75d96f1e026d0fb993944793916c1cd0597f44c) and includes:
 
 - https://github.com/graphql-rust/graphql-parser/pull/75
